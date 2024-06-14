@@ -1,7 +1,5 @@
 # Tic-Tac-Toe App
 
-![Tic-Tac-Toe Logo](path/to/logo.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
