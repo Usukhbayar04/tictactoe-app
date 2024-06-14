@@ -46,9 +46,13 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
-![Game Screenshot](https://github.com/Usukhbayar04/tictactoe/blob/master/assets/sc1.png)
-![Game Screenshot](https://github.com/Usukhbayar04/tictactoe/blob/master/assets/sc2.png)
-![Game Screenshot](https://github.com/Usukhbayar04/tictactoe/blob/master/assets/sc3.png)
+<table>
+  <tr>
+    <td><img src="https://github.com/Usukhbayar04/tictactoe/blob/master/assets/sc1.png" alt="Game Screenshot" width="200"/></td>
+    <td><img src="https://github.com/Usukhbayar04/tictactoe/blob/master/assets/sc2.png" alt="Game Screenshot" width="200"/></td>
+    <td><img src="https://github.com/Usukhbayar04/tictactoe/blob/master/assets/sc3.png" alt="Game Screenshot" width="200"/></td>
+  </tr>
+</table>
 
 ## Contributing
 
