@@ -27,7 +27,7 @@ class _GameScreenState extends State<GameScreen> {
   Timer? timer;
 
   void startTimer() {
-    timer = Timer.periodic(Duration(seconds: 1), (_) {
+    timer = Timer.periodic(const Duration(seconds: 1), (_) {
       setState(() {
         if (seconds > 0) {
           seconds--;
@@ -236,10 +236,9 @@ class _GameScreenState extends State<GameScreen> {
         displayOX[0] == displayOX[2] &&
         displayOX[0] != '') {
       setState(() {
-        resultDeclaration = 'Player ' + displayOX[0] + ' Wins!';
+        resultDeclaration = 'Player ${displayOX[0]} Wins!';
         matchedIndexes.addAll([0, 1, 2]);
         stopTimer();
-        _clearBoard();
         _updateScore(displayOX[0]);
       });
     }
@@ -248,10 +247,9 @@ class _GameScreenState extends State<GameScreen> {
         displayOX[3] == displayOX[5] &&
         displayOX[3] != '') {
       setState(() {
-        resultDeclaration = 'Player ' + displayOX[3] + ' Wins!';
+        resultDeclaration = 'Player ${displayOX[3]} Wins!';
         matchedIndexes.addAll([3, 4, 5]);
         stopTimer();
-        _clearBoard();
         _updateScore(displayOX[3]);
       });
     }
@@ -260,10 +258,9 @@ class _GameScreenState extends State<GameScreen> {
         displayOX[6] == displayOX[8] &&
         displayOX[6] != '') {
       setState(() {
-        resultDeclaration = 'Player ' + displayOX[6] + ' Wins!';
+        resultDeclaration = 'Player ${displayOX[6]} Wins!';
         matchedIndexes.addAll([6, 7, 8]);
         stopTimer();
-        _clearBoard();
         _updateScore(displayOX[6]);
       });
     }
@@ -272,9 +269,8 @@ class _GameScreenState extends State<GameScreen> {
         displayOX[0] == displayOX[6] &&
         displayOX[0] != '') {
       setState(() {
-        resultDeclaration = 'Player ' + displayOX[0] + ' Wins!';
+        resultDeclaration = 'Player ${displayOX[0]} Wins!';
         matchedIndexes.addAll([0, 3, 6]);
-        _clearBoard();
         stopTimer();
         _updateScore(displayOX[0]);
       });
@@ -284,10 +280,9 @@ class _GameScreenState extends State<GameScreen> {
         displayOX[1] == displayOX[7] &&
         displayOX[1] != '') {
       setState(() {
-        resultDeclaration = 'Player ' + displayOX[1] + ' Wins!';
+        resultDeclaration = 'Player ${displayOX[1]} Wins!';
         matchedIndexes.addAll([1, 4, 7]);
         stopTimer();
-        _clearBoard();
         _updateScore(displayOX[1]);
       });
     }
@@ -296,10 +291,9 @@ class _GameScreenState extends State<GameScreen> {
         displayOX[2] == displayOX[8] &&
         displayOX[2] != '') {
       setState(() {
-        resultDeclaration = 'Player ' + displayOX[2] + ' Wins!';
+        resultDeclaration = 'Player ${displayOX[2]} Wins!';
         matchedIndexes.addAll([2, 5, 8]);
         stopTimer();
-        _clearBoard();
         _updateScore(displayOX[2]);
       });
     }
@@ -308,9 +302,8 @@ class _GameScreenState extends State<GameScreen> {
         displayOX[0] == displayOX[8] &&
         displayOX[0] != '') {
       setState(() {
-        resultDeclaration = 'Player ' + displayOX[0] + ' Wins!';
+        resultDeclaration = 'Player ${displayOX[0]} Wins!';
         matchedIndexes.addAll([0, 4, 8]);
-        _clearBoard();
         stopTimer();
         _updateScore(displayOX[0]);
       });
@@ -320,9 +313,8 @@ class _GameScreenState extends State<GameScreen> {
         displayOX[2] == displayOX[6] &&
         displayOX[2] != '') {
       setState(() {
-        resultDeclaration = 'Player ' + displayOX[2] + ' Wins!';
+        resultDeclaration = 'Player ${displayOX[2]} Wins!';
         matchedIndexes.addAll([2, 4, 6]);
-        _clearBoard();
         stopTimer();
         _updateScore(displayOX[6]);
       });
