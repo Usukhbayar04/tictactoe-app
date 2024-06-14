@@ -1,16 +1,69 @@
-# tictactoe_app
+# Tic-Tac-Toe App
 
-A new Flutter project.
+![Tic-Tac-Toe Logo](path/to/logo.png)
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-A few resources to get you started if this is your first Flutter project:
+## Introduction
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Welcome to the Tic-Tac-Toe App! This is a simple, yet fun implementation of the classic Tic-Tac-Toe game where two players can play against each other. The game is built to provide an intuitive and enjoyable user experience.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- Classic Tic-Tac-Toe game mechanics
+- Two-player mode
+- Simple and intuitive UI
+- Responsive design for mobile and desktop
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/Usukhbayar04/tictactoe.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd tictactoe-app
+   ```
+3. Install dependencies
+   ```sh
+   npm install
+   ```
+4. Start the application
+   ```sh
+   npm start
+   ```
+
+## Screenshots
+
+![Game Screenshot](path/to/sc1.png)
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Usukhbayar - [your.email@example.com](mailto:your.email@example.com)
+
+Project Link: [https://github.com/Usukhbayar04/tictactoe.git](https://github.com/Usukhbayar04/tictactoe)
