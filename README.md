@@ -70,6 +70,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Usukhbayar - [your.email@example.com](mailto:your.email@example.com)
+Usukhbayar - [usukhbayar.ug@gmail.com](usukhbayar.ug@gmail.com)
 
 Project Link: [https://github.com/Usukhbayar04/tictactoe.git](https://github.com/Usukhbayar04/tictactoe)
